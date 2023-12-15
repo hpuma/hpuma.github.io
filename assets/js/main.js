@@ -39,7 +39,7 @@ const rss = new RSS(
 rss.render();
 
 /* Github Calendar - https://github.com/IonicaBizau/github-calendar */
-new GitHubCalendar("#github-graph", "IonicaBizau", { responsive: true });
+new GitHubCalendar("#github-graph", "hpuma", { responsive: true });
 
 /* Github Activity Feed - https://github.com/caseyscarborough/github-activity */
 GitHubActivity.feed({ username: "hpuma", selector: "#ghfeed" });
