@@ -266,16 +266,25 @@
             <h2 class="heading sr-only">Basic Information</h2>
             <div class="content">
               <ul class="list-unstyled">
-                <li><i class="fas fa-map-marker-alt"></i><span class="sr-only">Location:</span>New York City,
-                  NY&nbsp;&nbsp;<img src="assets/images/nyc.gif" height="40px" width="40px" alt="NYC">
+                <li><i class="fas fa-map-marker-alt"></i><span class="sr-only">Location:</span>&nbsp;&nbsp;&nbsp;New
+                  York
+                  City,
+                  NY
                 </li>
-                <li><i class="fas fa-envelope"></i><span class="sr-only">Email:</span>
-                  <SCRIPT
-                    LANGUAGE="JavaScript">user = 'pumahenry12'; site = 'gmail.com'; document.write('<a href=\"mailto:' + user + '@' + site + '\">'); document.write(user + '[at]' + site + '</a>');</SCRIPT>
+                <li><i class="fas fa-envelope"></i><span class="sr-only"></span>&nbsp;
+                  <SCRIPT LANGUAGE="JavaScript">user = 'pumahenry12'; site = 'gmail.com'; document.write('<a href=\"mailto:' + user + '@' + site + '\">'); document.write(user + '[at]' + site + '</a>');
+                  </SCRIPT>
                 </li>
-                <li><i class="fas fa-link"></i><span class="sr-only">Website:</span>
+                <li><i class="fas fa-link"></i><span class="sr-only"></span>
+                  <SCRIPT LANGUAGE="JavaScript">domain = 'http://www.henrypuma.com'; document.write('<a href=\"' + domain + '\" target=\"_blank\">'); document.write("www.henrypuma.com" + '</a>');
+                  </SCRIPT>
+                </li>
+                <li>
+                  <i class="fas fa-wrench"></i>
+                  <span class="sr-only">Last Updated:</span>
+                  <span id="lastUpdate"></span>
                   <SCRIPT
-                    LANGUAGE="JavaScript">domain = 'http://www.henrypuma.com'; document.write('<a href=\"' + domain + '\" target=\"_blank\">'); document.write("www.henrypuma.com" + '</a>');</SCRIPT>
+                    LANGUAGE="JavaScript"> document.getElementById("lastUpdate").innerHTML = new Date().toLocaleString();</SCRIPT>
                 </li>
               </ul>
             </div><!--//content-->
