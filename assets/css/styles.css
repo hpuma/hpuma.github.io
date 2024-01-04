@@ -7,22 +7,27 @@
  * Website: https://themes.3rdwavemedia.com/
 */
 body {
-  font-family: 'Lato', arial, sans-serif;
+  font-family: "Lato", arial, sans-serif;
   color: #434343;
-  background: #DAE3E7;
+  background: #dae3e7;
   font-size: 16px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Montserrat', sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
   color: #778492;
 }
 
 a {
-  color: #3AAA64;
+  color: #3aaa64;
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
@@ -39,32 +44,37 @@ a:focus {
   text-decoration: none;
 }
 
-.btn, a.btn {
+.btn,
+a.btn {
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
-  font-family: 'Montserrat', arial, sans-serif;
+  font-family: "Montserrat", arial, sans-serif;
   padding: 8px 16px;
   font-weight: bold;
 }
 
-.btn .svg-inline--fa, a.btn .svg-inline--fa {
+.btn .svg-inline--fa,
+a.btn .svg-inline--fa {
   margin-right: 5px;
   position: relative;
   top: -2px;
 }
 
-.btn:hover, a.btn:hover {
+.btn:hover,
+a.btn:hover {
   text-decoration: none;
 }
 
-.btn:focus, a.btn:focus {
+.btn:focus,
+a.btn:focus {
   color: #fff;
   box-shadow: none;
 }
 
-a.btn-cta-primary, .btn-cta-primary {
+a.btn-cta-primary,
+.btn-cta-primary {
   background: #54ba4e;
   border: 1px solid #54ba4e;
   color: #fff;
@@ -72,21 +82,26 @@ a.btn-cta-primary, .btn-cta-primary {
   text-transform: uppercase;
 }
 
-a.btn-cta-primary:hover, .btn-cta-primary:hover {
+a.btn-cta-primary:hover,
+.btn-cta-primary:hover {
   background: #49ac43;
   border: 1px solid #49ac43;
   color: #fff;
 }
 
-a.btn-cta-secondary, .btn-cta-secondary {
-  background: #479FC8;
-  border: 1px solid #479FC8;
+a.btn-cta-secondary,
+.btn-cta-secondary {
+  background: #479fc8;
+  border: 1px solid #479fc8;
   color: #fff;
   font-weight: 600;
   text-transform: uppercase;
 }
 
-a.btn-cta-secondary:hover, a.btn-cta-secondary:not(:disabled):not(.disabled):active:focus, .btn-cta-secondary:hover, .btn-cta-secondary:not(:disabled):not(.disabled):active:focus {
+a.btn-cta-secondary:hover,
+a.btn-cta-secondary:not(:disabled):not(.disabled):active:focus,
+.btn-cta-secondary:hover,
+.btn-cta-secondary:not(:disabled):not(.disabled):active:focus {
   background: #3893bd;
   border: 1px solid #3893bd;
   color: #fff;
@@ -98,7 +113,7 @@ a.btn-cta-secondary:hover, a.btn-cta-secondary:not(:disabled):not(.disabled):act
 }
 
 .badge-theme {
-  background: #3AAA64;
+  background: #3aaa64;
   font-size: 12px;
   color: #fff;
   border-radius: 2px;
@@ -257,7 +272,7 @@ a.dotted-link:hover {
 }
 
 .latest .has-ribbon .text {
-  background: #3AAA64;
+  background: #3aaa64;
   color: #fff;
 }
 
@@ -271,7 +286,7 @@ a.dotted-link:hover {
 }
 
 .latest .has-ribbon .ribbon .text {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   position: relative;
   left: -8px;
   top: 18px;
@@ -282,15 +297,16 @@ a.dotted-link:hover {
   text-align: center;
   text-transform: uppercase;
   color: #fff;
-  background-color: #479FC8;
+  background-color: #479fc8;
   -webkit-transform: rotate(45deg) translate3d(0, 0, 0);
   -moz-transform: rotate(45deg) translate3d(0, 0, 0);
   -ms-transform: rotate(45deg) translate3d(0, 0, 0);
   -o-transform: rotate(45deg) translate3d(0, 0, 0);
 }
 
-.latest .has-ribbon .ribbon .text:before, .latest .has-ribbon .ribbon .text:after {
-  content: '';
+.latest .has-ribbon .ribbon .text:before,
+.latest .has-ribbon .ribbon .text:after {
+  content: "";
   position: absolute;
   bottom: -5px;
   border-top: 5px solid #276582;
@@ -436,6 +452,15 @@ a.dotted-link:hover {
 .skills .skillset .level-bar-inner {
   height: 15px;
   background: #66cb8c;
+  animation: fillAnimation 2s ease-out;
+}
+@keyframes fillAnimation {
+  from {
+    width: 0;
+  }
+  to {
+    width: 50%;
+  }
 }
 
 .skills .svg-inline--fa {
@@ -644,7 +669,7 @@ a.dotted-link:hover {
 
 .dark-mode-switch .form-switch .form-check-input {
   border-radius: 1em;
-  border-color: #DAE3E7;
+  border-color: #dae3e7;
 }
 
 .dark-mode-switch .form-check-input:checked {
@@ -654,7 +679,7 @@ a.dotted-link:hover {
 
 .dark-mode-switch .form-check-input:focus {
   box-shadow: none;
-  border-color: #DAE3E7;
+  border-color: #dae3e7;
 }
 
 body[data-theme="dark"] {
@@ -715,11 +740,15 @@ body[data-theme="dark"] .testimonials .item .quote {
   color: rgba(255, 255, 255, 0.9);
 }
 
-body[data-theme="dark"] .latest .item .title a, body[data-theme="dark"] .projects .item .title a, body[data-theme="dark"] .blog .item .title a {
+body[data-theme="dark"] .latest .item .title a,
+body[data-theme="dark"] .projects .item .title a,
+body[data-theme="dark"] .blog .item .title a {
   color: rgba(255, 255, 255, 0.9);
 }
 
-body[data-theme="dark"] .latest .item .title a:hover, body[data-theme="dark"] .projects .item .title a:hover, body[data-theme="dark"] .blog .item .title a:hover {
+body[data-theme="dark"] .latest .item .title a:hover,
+body[data-theme="dark"] .projects .item .title a:hover,
+body[data-theme="dark"] .blog .item .title a:hover {
   color: #fff;
 }
 
@@ -735,7 +764,8 @@ body[data-theme="dark"] .languages .item .title {
   color: rgba(255, 255, 255, 0.9);
 }
 
-body[data-theme="dark"] .list ul li a, body[data-theme="dark"] .credits ul li a {
+body[data-theme="dark"] .list ul li a,
+body[data-theme="dark"] .credits ul li a {
   color: inherit;
 }
 
@@ -751,14 +781,16 @@ body[data-theme="dark"] .aside .subheading {
   color: rgba(255, 255, 255, 0.9);
 }
 
-body[data-theme="dark"] .gha-header, body[data-theme="dark"] .gha-footer, body[data-theme="dark"] .gha-feed {
+body[data-theme="dark"] .gha-header,
+body[data-theme="dark"] .gha-footer,
+body[data-theme="dark"] .gha-feed {
   background: #17191c;
   border-color: rgba(255, 255, 255, 0.1);
-  color: #3AAA64;
+  color: #3aaa64;
 }
 
 body[data-theme="dark"] .gha-feed a {
-  color: #3AAA64;
+  color: #3aaa64;
 }
 
 body[data-theme="dark"] .gha-header > .gha-github-icon,
@@ -792,7 +824,8 @@ body[data-theme="dark"] .contrib-number {
   color: rgba(255, 255, 255, 0.9);
 }
 
-body[data-theme="dark"] .border, body[data-theme="dark"] .contrib-column {
+body[data-theme="dark"] .border,
+body[data-theme="dark"] .contrib-column {
   border: 1px solid rgba(255, 255, 255, 0.1) !important;
 }
 
